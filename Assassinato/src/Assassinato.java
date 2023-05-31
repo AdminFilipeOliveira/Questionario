@@ -21,7 +21,7 @@ public class Assassinato{
             System.out.println(pergunta + " (Sim/Não):");  
             String resposta = scanner.nextLine().toLowerCase();
 
-            if (resposta.equals("sim")) {         // São contablizadas as respostas "sim"
+            if (resposta.equals("sim")) {         // Só são contablizadas as respostas "sim"
                 respostasPositivas++;
             }
         }
