@@ -18,10 +18,10 @@ public class Assassinato{
         int respostasPositivas = 0;
 
         for (String pergunta : perguntas) {      // Utilizando o for-each precorrendo as respostas "sim ou Não"
-            System.out.println(pergunta + " (Sim/Não):");  // São contablizadas as respostas "sim"
+            System.out.println(pergunta + " (Sim/Não):");  
             String resposta = scanner.nextLine().toLowerCase();
 
-            if (resposta.equals("sim")) {       
+            if (resposta.equals("sim")) {         // São contablizadas as respostas "sim"
                 respostasPositivas++;
             }
         }
